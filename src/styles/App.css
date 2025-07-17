@@ -1,0 +1,42 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.raleway-700 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.motion-container::-webkit-scrollbar {
+  display: none;
+  /* Or you can make it transparent */
+  /* background-color: transparent; */
+}
+
+/* For Firefox */
+.motion-container {
+  scrollbar-width: none;
+  /* Hide scrollbar */
+}
+
+/* For IE and Edge (older versions) */
+.motion-container {
+  -ms-overflow-style: none;
+  /* Hide scrollbar */
+}
+
+.header-segment {
+  background-image: url(/public/header.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}

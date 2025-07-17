@@ -1,0 +1,66 @@
+{
+    "users": [
+        {
+            "username": "peterX",
+            "email": "peter001@gmail.com",
+            "password": "pete101"
+        },
+        {
+            "username": "angero3001",
+            "email": "angelo1130@gmail.com",
+            "password": "mIko0223"
+        }
+    ],
+    "details": [
+        {
+            "username": "peterX",
+            "vacation": 1,
+            "sick": 2,
+            "bereavement": 21,
+            "emergency_leave": 5,
+            "offset_leave": 7,
+            "compensatory_time_off": 0
+        },
+        {
+            "username": "angero3001",
+            "vacation": 14,
+            "sick": 7,
+            "bereavement": 21,
+            "emergency_leave": 7,
+            "offset_leave": 0,
+            "compensatory_time_off": 0
+        } 
+    ],
+    "time_records": [
+        {
+            "username": "peterX",
+            "attendance": [
+                {
+                    "date": "07/12/2025",
+                    "in": "09:30 AM",
+                    "out": "06:30 PM"
+                },
+                {
+                    "date": "07/11/2025",
+                    "in": "08:30 AM",
+                    "out": "06:00 PM"
+                }
+            ]
+        },
+        {
+            "username": "angero3001",
+            "attendance": [
+                {
+                    "date": "07/12/2025",
+                    "in": "08:59 AM",
+                    "out": "06:13 PM"
+                },
+                {
+                    "date": "07/11/2025",
+                    "in": "09:10 AM",
+                    "out": "05:59 PM"
+                }
+            ]
+        }
+    ]
+}
